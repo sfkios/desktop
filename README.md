@@ -11,6 +11,8 @@ tar -xvf ~/Downloads/Nordic-Folders.tar.xz -C ~/.icons/
 tar -xvf ~/Downloads/papirus-icon-theme-nordic-folders.tar.xz -C ~/.icons/
 gtk-update-icon-cache -f -t ~/.icons/Papirus-Dark/
 tar -xvf ~/Downloads/capitaine-cursors-r4.tar.gz -C ~/.icons/
+mkdir -p ~/.local/share/xfce4/terminal/colorschemes
+mv ~/Downloads/nord.theme ~/.local/share/xfce4/terminal/colorschemes/
 ```
 
 [Wallpaper](https://unsplash.com/photos/silhouette-of-trees-covered-by-fog-KT3WlrL_bsg)
