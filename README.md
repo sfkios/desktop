@@ -13,7 +13,6 @@ gtk-update-icon-cache -f -t ~/.icons/Papirus-Dark/
 tar -xvf ~/Downloads/capitaine-cursors-r4.tar.gz -C ~/.icons/
 mkdir -p ~/.local/share/xfce4/terminal/colorschemes
 mv ~/Downloads/nord.theme ~/.local/share/xfce4/terminal/colorschemes/
-sudo dnf install -y rsms-inter-fonts jetbrains-mono-fonts
 ```
 
 [Wallpaper](https://unsplash.com/photos/silhouette-of-trees-covered-by-fog-KT3WlrL_bsg)
