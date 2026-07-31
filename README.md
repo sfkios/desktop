@@ -5,6 +5,11 @@ sudo hostnamectl set-hostname fedora
 sudo cp /etc/hosts /etc/hosts.bak
 sudo nano /etc/hosts
 sudo reboot
+mkdir -p ~/.themes ~/.icons
+tar -xvf ~/Downloads/Nordic-darker.tar.xz -C ~/.themes/
+tar -xvf ~/Downloads/Nordic-Folders.tar.xz -C ~/.icons/
+tar -xvf ~/Downloads/papirus-icon-theme-nordic-folders.tar.xz -C ~/.icons/
+gtk-update-icon-cache -f -t ~/.icons/Papirus-Dark/
 ```
 
 [Wallpaper](https://unsplash.com/photos/silhouette-of-trees-covered-by-fog-KT3WlrL_bsg)
